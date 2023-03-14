@@ -16,6 +16,9 @@ struct NavigationLazyView<Content: View>: View {
     var body: Content { build() }
 }
 
+//icon config
+let IMAGE_LMTD_ICON = "limited-icon"
+
 // Travel Images
 let travelJP = "TRAVEL_JP"
 let travelHK = "TRAVEL_HK"

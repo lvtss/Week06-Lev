@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct ServiceProviderModel {
+    var name: String, about: String
+}
+
 struct TravelModel: Identifiable {
     var id: Int
     var promo: String
@@ -16,4 +20,5 @@ struct TravelModel: Identifiable {
     var location: String
     var attribute: String
     var reviews: Double
+    var serviceProvider: ServiceProviderModel
 }
