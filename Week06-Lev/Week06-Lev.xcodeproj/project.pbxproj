@@ -36,6 +36,8 @@
 		3DB5E04B29BFECE500B4359F /* OtherConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E04A29BFECE500B4359F /* OtherConfigs.swift */; };
 		3DB5E04D29BFF13E00B4359F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E04C29BFF13E00B4359F /* HomeViewModel.swift */; };
 		3DB5E04F29C003AF00B4359F /* TravelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E04E29C003AF00B4359F /* TravelData.swift */; };
+		3DB5E05129C01FF900B4359F /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E05029C01FF900B4359F /* TravelDetailsView.swift */; };
+		3DB5E05329C0201400B4359F /* TravelDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E05229C0201400B4359F /* TravelDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		3DB5E04A29BFECE500B4359F /* OtherConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherConfigs.swift; sourceTree = "<group>"; };
 		3DB5E04C29BFF13E00B4359F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3DB5E04E29C003AF00B4359F /* TravelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelData.swift; sourceTree = "<group>"; };
+		3DB5E05029C01FF900B4359F /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
+		3DB5E05229C0201400B4359F /* TravelDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +110,13 @@
 				3DB5E00A29BF86F300B4359F /* ContentView.swift */,
 				3DB5E01629BFA86400B4359F /* TravelDetails */,
 				3DB5E01729BFA87400B4359F /* Data */,
-				3DB5E01B29BFA8AB00B4359F /* Helpers */,
 				3DB5E01929BFA88F00B4359F /* Home */,
 				3DB5E01829BFA88300B4359F /* Model */,
 				3DB5E00829BF86F300B4359F /* Week06_LevApp.swift */,
-				3DB5E04229BFABEC00B4359F /* UrbanistFontModifier.swift */,
-				3DB5E04829BFB3F900B4359F /* ColourSettings.swift */,
-				3DB5E04A29BFECE500B4359F /* OtherConfigs.swift */,
 				3DB5E01C29BFA99E00B4359F /* Urbanist Font */,
-				3DB5E00C29BF86F400B4359F /* Assets.xcassets */,
+				3DB5E01B29BFA8AB00B4359F /* Misc */,
 				3DB5E00E29BF86F400B4359F /* Preview Content */,
+				3DB5E00C29BF86F400B4359F /* Assets.xcassets */,
 			);
 			path = "Week06-Lev";
 			sourceTree = "<group>";
@@ -131,6 +132,8 @@
 		3DB5E01629BFA86400B4359F /* TravelDetails */ = {
 			isa = PBXGroup;
 			children = (
+				3DB5E05029C01FF900B4359F /* TravelDetailsView.swift */,
+				3DB5E05229C0201400B4359F /* TravelDetailsModel.swift */,
 			);
 			path = TravelDetails;
 			sourceTree = "<group>";
@@ -160,11 +163,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		3DB5E01B29BFA8AB00B4359F /* Helpers */ = {
+		3DB5E01B29BFA8AB00B4359F /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				3DB5E04229BFABEC00B4359F /* UrbanistFontModifier.swift */,
+				3DB5E04829BFB3F900B4359F /* ColourSettings.swift */,
+				3DB5E04A29BFECE500B4359F /* OtherConfigs.swift */,
 			);
-			path = Helpers;
+			path = Misc;
 			sourceTree = "<group>";
 		};
 		3DB5E01C29BFA99E00B4359F /* Urbanist Font */ = {
@@ -283,8 +289,10 @@
 				3DB5E00B29BF86F300B4359F /* ContentView.swift in Sources */,
 				3DB5E04B29BFECE500B4359F /* OtherConfigs.swift in Sources */,
 				3DB5E04529BFAD2200B4359F /* HomeView.swift in Sources */,
+				3DB5E05129C01FF900B4359F /* TravelDetailsView.swift in Sources */,
 				3DB5E04D29BFF13E00B4359F /* HomeViewModel.swift in Sources */,
 				3DB5E04F29C003AF00B4359F /* TravelData.swift in Sources */,
+				3DB5E05329C0201400B4359F /* TravelDetailsModel.swift in Sources */,
 				3DB5E04929BFB3F900B4359F /* ColourSettings.swift in Sources */,
 				3DB5E04729BFAF4F00B4359F /* TravelModel.swift in Sources */,
 				3DB5E00929BF86F300B4359F /* Week06_LevApp.swift in Sources */,

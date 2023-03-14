@@ -6,13 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
 
+class HomeViewModel: ObservableObject {
 
-//class HomeViewModel: ObservableObject {
-//
-//    @Published var travelList = [TravelModel]()
-//
-//    init() { fetchTravelList() }
-//
-//    func fetchTravelList() { dogsList = travelData.dogs }
-//}
+    @Published var travelList = [TravelModel]()
+
+    init() { fetchTravelList() }
+
+    func fetchTravelList() { travelList = TravelData.destinations }
+}
