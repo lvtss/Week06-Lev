@@ -50,7 +50,7 @@ struct TravelDetailsView: View {
                                 HStack(alignment: .center, spacing: 2) {
                                     Image(IMAGE_LMTD_ICON).resizable().frame(width: 24, height: 24)
                                     Text("\(viewModel.model.location)").modifier(UrbansitFont(.medium, size: 14))
-                                        .foregroundColor(Color.red_color).padding(.top, 2)
+                                        .foregroundColor(Color.orange).padding(.top, 2)
                                 }
                                 Spacer()
                                 //Text("\(viewModel.model.price) yrs | \(viewModel.model.promo)").modifier(UrbansitFont(.regular, size: 14))
