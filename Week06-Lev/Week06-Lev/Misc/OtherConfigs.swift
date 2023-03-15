@@ -18,11 +18,20 @@ struct NavigationLazyView<Content: View>: View {
 
 //icon config
 let IMAGE_LMTD_ICON = "limited-icon"
+let image_back = "back_icon"
+let fav_icon = "fav_icon"
 
 // Travel Images
+//let travelJP = "TRAVEL_JP"
+//let travelHK = "TRAVEL_HK"
+//let travelNP = "TRAVEL_NP"
+//let travelUK = "TRAVEL_UK"
+//let travelUS = "TRAVEL_US"
+//let travelMRC = "TRAVEL_MRC"
+
 let travelJP = "TRAVEL_JP"
-let travelHK = "TRAVEL_HK"
-let travelNP = "TRAVEL_NP"
+let travelHK = "travel_HK"
+let travelNP = "Travel_NP"
 let travelUK = "TRAVEL_UK"
 let travelUS = "TRAVEL_US"
 let travelMRC = "TRAVEL_MRC"

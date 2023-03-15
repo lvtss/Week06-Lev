@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Rectangle 7.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Rectangle 6.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Screenshot 2023-03-13 at 19.32.14.png",
+      "filename" : "Rectangle 5.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -38,6 +38,9 @@
 		3DB5E04F29C003AF00B4359F /* TravelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E04E29C003AF00B4359F /* TravelData.swift */; };
 		3DB5E05129C01FF900B4359F /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E05029C01FF900B4359F /* TravelDetailsView.swift */; };
 		3DB5E05329C0201400B4359F /* TravelDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5E05229C0201400B4359F /* TravelDetailsModel.swift */; };
+		3DB931BA29C13074009BE161 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB931B929C13074009BE161 /* ProfileView.swift */; };
+		3DB931BD29C14384009BE161 /* Travel_NP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DB931BC29C14384009BE161 /* Travel_NP.jpg */; };
+		3DB931BF29C14418009BE161 /* travel_HK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DB931BE29C14418009BE161 /* travel_HK.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +77,9 @@
 		3DB5E04E29C003AF00B4359F /* TravelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelData.swift; sourceTree = "<group>"; };
 		3DB5E05029C01FF900B4359F /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
 		3DB5E05229C0201400B4359F /* TravelDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsModel.swift; sourceTree = "<group>"; };
+		3DB931B929C13074009BE161 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3DB931BC29C14384009BE161 /* Travel_NP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Travel_NP.jpg; sourceTree = "<group>"; };
+		3DB931BE29C14418009BE161 /* travel_HK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel_HK.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 				3DB5E01C29BFA99E00B4359F /* Urbanist Font */,
 				3DB5E01B29BFA8AB00B4359F /* Misc */,
 				3DB5E00E29BF86F400B4359F /* Preview Content */,
+				3DB931BB29C1436C009BE161 /* Images */,
 				3DB5E00C29BF86F400B4359F /* Assets.xcassets */,
 			);
 			path = "Week06-Lev";
@@ -159,6 +166,7 @@
 			children = (
 				3DB5E04429BFAD2200B4359F /* HomeView.swift */,
 				3DB5E04C29BFF13E00B4359F /* HomeViewModel.swift */,
+				3DB931B929C13074009BE161 /* ProfileView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -196,6 +204,15 @@
 				3DB5E02329BFA9BC00B4359F /* Urbanist-ThinItalic.ttf */,
 			);
 			path = "Urbanist Font";
+			sourceTree = "<group>";
+		};
+		3DB931BB29C1436C009BE161 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3DB931BE29C14418009BE161 /* travel_HK.jpg */,
+				3DB931BC29C14384009BE161 /* Travel_NP.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,8 @@
 				3DB5E02F29BFA9BD00B4359F /* Urbanist-LightItalic.ttf in Resources */,
 				3DB5E01029BF86F400B4359F /* Preview Assets.xcassets in Resources */,
 				3DB5E03E29BFA9BD00B4359F /* Urbanist-SemiBold.ttf in Resources */,
+				3DB931BF29C14418009BE161 /* travel_HK.jpg in Resources */,
+				3DB931BD29C14384009BE161 /* Travel_NP.jpg in Resources */,
 				3DB5E03B29BFA9BD00B4359F /* Urbanist-ExtraBoldItalic.ttf in Resources */,
 				3DB5E03329BFA9BD00B4359F /* Urbanist-Light.ttf in Resources */,
 				3DB5E03F29BFA9BD00B4359F /* Urbanist-Medium.ttf in Resources */,
@@ -290,6 +309,7 @@
 				3DB5E04B29BFECE500B4359F /* OtherConfigs.swift in Sources */,
 				3DB5E04529BFAD2200B4359F /* HomeView.swift in Sources */,
 				3DB5E05129C01FF900B4359F /* TravelDetailsView.swift in Sources */,
+				3DB931BA29C13074009BE161 /* ProfileView.swift in Sources */,
 				3DB5E04D29BFF13E00B4359F /* HomeViewModel.swift in Sources */,
 				3DB5E04F29C003AF00B4359F /* TravelData.swift in Sources */,
 				3DB5E05329C0201400B4359F /* TravelDetailsModel.swift in Sources */,

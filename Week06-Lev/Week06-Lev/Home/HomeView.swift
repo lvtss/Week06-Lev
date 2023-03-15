@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct HomeView: View {
-
+    
     @StateObject var viewModel = HomeViewModel()
 
     var body: some View {
@@ -22,15 +22,15 @@ struct HomeView: View {
                         HStack {
                             VStack(alignment: .leading) {
                                 Text("Hi Jane,").modifier(UrbansitFont(.bold, size: 24))
-                                    .foregroundColor(Color.text_primary_color).padding(.top, 16)
+                                    .foregroundColor(Color.text_primary_color).padding(.top, 12)
                                 Text("Recommended for you").modifier(UrbansitFont(.regular, size: 18))
-                                    .foregroundColor(Color.text_primary_color).padding(.top, 4)
+                                    .foregroundColor(Color.text_primary_color).padding(.top, 2)
                             }
                             Spacer()
                         }
-                        Text("6 results").modifier(UrbansitFont(.bold, size: 14))
+                        Text("6 items").modifier(UrbansitFont(.bold, size: 14))
                             .foregroundColor(Color.text_primary_color)
-                            .padding(.top, 24).padding(.bottom, 8)
+                            .padding(.top, 12).padding(.bottom, 8)
                         ForEach(viewModel.travelList) { model in
                             NavigationLink(destination: TravelDetailsView(model: model), label: {
                                 HomeListModelView(image: model.image, promo: model.promo, activity: model.activity,
@@ -39,9 +39,10 @@ struct HomeView: View {
                         }
                     }
                     Spacer()
-                    Spacer().frame(height: 150)
+                    Spacer().frame(height: 100)
                 }
                 .padding(.horizontal, 16).padding(.top, 1)
+                
                 .navigationBarHidden(true)
             }
         }
@@ -58,22 +59,22 @@ struct HomeListModelView: View {
         HStack(spacing: 12) {
             Image(image)
                 .resizable().scaledToFill()
-                .frame(width: 100, height: 100).cornerRadius(16)
+                .frame(width: 50, height: 50).cornerRadius(16)
             VStack(alignment: .leading, spacing: 12) {
-                Text(promo).lineLimit(1).modifier(UrbansitFont(.medium, size: 20)).foregroundColor(Color.text_primary_color)
-                Text("\(activity) yrs | \(price)").lineLimit(1).modifier(UrbansitFont(.regular, size: 14)).foregroundColor(Color.text_primary_color)
+                Text(promo).lineLimit(2).modifier(UrbansitFont(.semiBold, size: 20)).foregroundColor(Color.text_primary_color)
+                Text("\(activity)").lineLimit(1).modifier(UrbansitFont(.regular, size: 14)).foregroundColor(Color.text_primary_color)
                 HStack(alignment: .center, spacing: 2) {
                     Image(IMAGE_LMTD_ICON).resizable().frame(width: 20, height: 20)
-                    Text("\(attribute) away").modifier(UrbansitFont(.regular, size: 14))
-                        .foregroundColor(Color.text_primary_color).padding(.top, 2)
+                    Text("\(location)").modifier(UrbansitFont(.regular, size: 13))
+                        .foregroundColor(Color.orange).padding(.top, 2)
                 }
             }
             Spacer()
             VStack(alignment: .trailing) {
                 AttributeView(isNew: attribute == "male")
                 Spacer()
-                Text("12 min ago").modifier(UrbansitFont(.regular, size: 12))
-                    .foregroundColor(Color.text_primary_color)
+                Text("\(price)").modifier(UrbansitFont(.bold, size: 20))
+                    .foregroundColor(Color.black)
             }.padding(.vertical, 4)
         }
         .padding(16)
@@ -85,13 +86,15 @@ struct HomeListModelView: View {
 struct AttributeView: View {
     var isNew: Bool
     var body: some View {
-        Text(isNew ? "Best Seller" : "Good Deal").modifier(UrbansitFont(.regular, size: 12))
-            .foregroundColor(isNew ? Color.blue_color : Color.red_color)
+        Text(isNew ? "Good Deal" : "Best Seller").modifier(UrbansitFont(.regular, size: 12))
+            .foregroundColor(isNew ? Color.red_color : Color.blue_color)
             .padding(.horizontal, 18).padding(.vertical, 8)
-            .background(isNew ? Color.blue_color_trans : Color.red_color_trans)
+            .background(isNew ? Color.red_color_trans : Color.blue_color_trans)
             .cornerRadius(12)
     }
 }
+
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

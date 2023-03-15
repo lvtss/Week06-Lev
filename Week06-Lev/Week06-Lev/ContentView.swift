@@ -3,25 +3,32 @@
 //  Week06-Lev
 //
 //  Created by Levitia on 13/03/2023.
-//
+//t
 
+import Foundation
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        //   HomeView()
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+                HomeView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                
+                ProfileView()
+                    .tabItem {
+                        Label("Profile", systemImage: "person.crop.circle")
+                    }
+                
+            }
         }
-        .padding()
     }
-}
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

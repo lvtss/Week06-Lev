@@ -11,10 +11,12 @@ import SwiftUI
 extension Color {
     
     static let main_color = Color("MainColor")
-    static let primary_color = Color("primary")
-    static let secondary_color = Color("secondary")
+    static let primary_color = Color("Primary")
+    static let secondary_color = Color("Secondary")
     static let text_primary_color = Color("text_primary_color")
+    static let accent_color = Color("accent_color")
     static let placeholder_color = Color(UIColor(red: 189/255, green: 189/255, blue: 189/255, alpha: 1.0))
+    
     
     static let red_color = Color(UIColor(red: 235/255, green: 87/255, blue: 87/255, alpha: 1.0))
     static let blue_color = Color(UIColor(red: 0/255, green: 106/255, blue: 246/255, alpha: 1.0))

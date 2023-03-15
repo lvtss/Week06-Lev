@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "limited-icon 1.png",
+      "filename" : "Travel_NP 2.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "limited-icon 1@2x.png",
+      "filename" : "Travel_NP 1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "limited-icon 1@3x.png",
+      "filename" : "Travel_NP.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
