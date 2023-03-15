@@ -80,6 +80,7 @@
 		3DB931B929C13074009BE161 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3DB931BC29C14384009BE161 /* Travel_NP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Travel_NP.jpg; sourceTree = "<group>"; };
 		3DB931BE29C14418009BE161 /* travel_HK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel_HK.jpg; sourceTree = "<group>"; };
+		3DB931C029C147E5009BE161 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		3DB5DFFC29BF86F300B4359F = {
 			isa = PBXGroup;
 			children = (
+				3DB931C029C147E5009BE161 /* ReadMe.md */,
 				3DB5E00729BF86F300B4359F /* Week06-Lev */,
 				3DB5E00629BF86F300B4359F /* Products */,
 			);
